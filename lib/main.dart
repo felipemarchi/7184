@@ -107,7 +107,7 @@ class _HomePageState extends State<HomePage> {
               },
               value: item.done,
             ),
-            key: Key(item.title),
+            key: Key(index.toString()),
             onDismissed: (direction) {
               remove(index);
             },
